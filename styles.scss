@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: Rock-Regular;
+    src: url(fonts/ROCK.woff);
+}
+
+@font-face {
+    font-family: Rock-Bold;
+    src: url(fonts/ROCKB.woff);
+}
+
+//Fuentes Generales
+$bajadas: 'Rock-Regular', sans-serif;
+$titulares: 'Rock-Bold', sans-serif;
+$regular: 400;
+$medium: 500;
+$semibold: 700;
+$bold: 900;
+
+//Colores Generales
+$colorFondo01:#F3F2F2;
+$colorFondo02:#ffffff;
+$colorFondo03:#95C11F;
+$colorFondo04:#EAF3D2;
+$colorFondo05:#8C8984;
+$colorFondo06:#B0B0AD;
+$colorTitulares:#000000;
+$colorBajada01:#B0B0AD;
+$colorBoton01: #4060C0;
+$colorBoton02: #0191C8;
+$colorEtchegoyen:#0950A1;
+$colorOverEtchegoyen:#074388;
+$colorTexoto01:#ffffff;
+$colorTexoto02:#eeecec;
+
+
+//Colores Footer
+$textoFooter:#ffffff;
+
+.fondo-verde-claro{
+    background-color:$colorFondo04 ;
+}
+
+.fondo-verde{
+    background-color:$colorFondo03;
+}
+
+.fondo-blanco{
+    background-color:$colorFondo02 ;
+}
+
+.color-etchegoyen{
+    background-color: $colorEtchegoyen ;
+}
+
+// Compilado de archivos
+
+@import "_carrusel_intro";
+
+

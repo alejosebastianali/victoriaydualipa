@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+section#carousel{
+    .cont-data-car{
+        width: 100%;
+        height: 100vh;
+        position: absolute;box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+
+
+            .data-car{
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+
+                    .data-a{
+                        h1{
+                            font-family: 'Permanent Marker', cursive;
+                            font-size: 40px;
+                            letter-spacing: 3px;
+                            color: #f1e87d;
+                            font-weight: normal;
+                            text-transform: uppercase;
+                            margin: 20px 0px;
+                        }
+                    }
+
+                    .data-b{
+                        h2{
+                            font-family: 'Permanent Marker', cursive;
+                            font-size: 50px;
+                            color: #ffffff;
+                            font-weight: normal ;
+                        }
+                    }
+
+                    .data-c{
+                        h3{
+                            font-family: 'Permanent Marker', cursive;
+                            font-size: 30px;
+                            color: #fd6ba4;
+                            font-weight: normal ;
+                            margin: 20px 0px;
+                        }
+
+                        img#loguito{
+                            width: 300px;
+                            height: auto;
+                        }
+
+                    }
+            }
+    }
+}
+
+@media screen and (max-width:1000px){
+        section#carousel{
+            .cont-data-car{
+                height: 100vh;
+
+                .data-car{
+                    .data-a{
+                        h1{
+                            font-size: 15px;
+                        }
+                    }
+
+                    .data-b{
+                        h2{
+                            font-size: 25px;
+                            }
+                    }   
+
+                    .data-c{
+                        h3{
+                            font-size: 15px;
+                        }
+
+                        img#loguito{
+                            width: 200px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+}
